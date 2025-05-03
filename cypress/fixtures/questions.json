@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "answers": ["<a>", "<link>", "<href>", "<url>"],
+      "correctAnswer": "<a>"
+    },
+    {
+      "question": "Which JavaScript method is used to write to the console?",
+      "answers": ["console.write()", "console.print()", "console.log()", "print.console()"],
+      "correctAnswer": "console.log()"
+    },
+    {
+      "question": "Which selector targets all elements with the class 'box' in CSS?",
+      "answers": [".box", "#box", "box", "*box"],
+      "correctAnswer": ".box"
+    },
+    {
+      "question": "What is the default port number for a local React development server?",
+      "answers": ["8080", "3000", "5000", "8000"],
+      "correctAnswer": "3000"
+    },
+    {
+      "question": "Which method is used to fetch data in JavaScript?",
+      "answers": ["getData()", "fetch()", "load()", "request()"],
+      "correctAnswer": "fetch()"
+    },
+    {
+      "question": "Which MongoDB command is used to find documents?",
+      "answers": ["get()", "query()", "find()", "search()"],
+      "correctAnswer": "find()"
+    },
+    {
+      "question": "Which HTTP method is used to update a resource?",
+      "answers": ["GET", "POST", "PUT", "DELETE"],
+      "correctAnswer": "PUT"
+    },
+    {
+      "question": "In React, what hook is used to manage component state?",
+      "answers": ["useProps", "useRef", "useState", "useEffect"],
+      "correctAnswer": "useState"
+    },
+    {
+      "question": "What does API stand for?",
+      "answers": ["Advanced Programming Interface", "Application Programming Interface", "Automated Programming Interface", "Applied Protocol Interface"],
+      "correctAnswer": "Application Programming Interface"
+    },
+    {
+      "question": "Which extension is commonly used for TypeScript files?",
+      "answers": [".ts", ".js", ".tsx", ".jsx"],
+      "correctAnswer": ".ts"
+    }
+  ]
+  
