@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      { "text": "HyperText Markup Language", "isCorrect": true },
+      { "text": "HighText Machine Language", "isCorrect": false },
+      { "text": "Hyperloop Machine Language", "isCorrect": false },
+      { "text": "Markup Language of HTML", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which tag is used to insert a line break in HTML?",
+    "answers": [
+      { "text": "<lb>", "isCorrect": false },
+      { "text": "<break>", "isCorrect": false },
+      { "text": "<br>", "isCorrect": true },
+      { "text": "<line>", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the correct way to reference an external CSS file?",
+    "answers": [
+      { "text": "<link rel='stylesheet' href='style.css'>", "isCorrect": true },
+      { "text": "<style src='style.css'>", "isCorrect": false },
+      { "text": "<css href='style.css'>", "isCorrect": false },
+      { "text": "<script src='style.css'>", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which property is used in CSS to change text color?",
+    "answers": [
+      { "text": "text-color", "isCorrect": false },
+      { "text": "font-color", "isCorrect": false },
+      { "text": "color", "isCorrect": true },
+      { "text": "text-style", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "answers": [
+      { "text": "class", "isCorrect": false },
+      { "text": "style", "isCorrect": true },
+      { "text": "styles", "isCorrect": false },
+      { "text": "css", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What does the '===' operator do in JavaScript?",
+    "answers": [
+      { "text": "Assigns a value", "isCorrect": false },
+      { "text": "Compares value and type", "isCorrect": true },
+      { "text": "Concatenates values", "isCorrect": false },
+      { "text": "Checks only data type", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which keyword declares a constant in JavaScript?",
+    "answers": [
+      { "text": "const", "isCorrect": true },
+      { "text": "let", "isCorrect": false },
+      { "text": "var", "isCorrect": false },
+      { "text": "constant", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "answers": [
+      { "text": "// comment", "isCorrect": true },
+      { "text": "<!-- comment -->", "isCorrect": false },
+      { "text": "# comment", "isCorrect": false },
+      { "text": "/* comment */", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which method can be used to round a number down in JavaScript?",
+    "answers": [
+      { "text": "Math.ceil()", "isCorrect": false },
+      { "text": "Math.round()", "isCorrect": false },
+      { "text": "Math.floor()", "isCorrect": true },
+      { "text": "Math.cut()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which HTML element is used to create an unordered list?",
+    "answers": [
+      { "text": "<ul>", "isCorrect": true },
+      { "text": "<ol>", "isCorrect": false },
+      { "text": "<li>", "isCorrect": false },
+      { "text": "<list>", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a valid CSS unit?",
+    "answers": [
+      { "text": "em", "isCorrect": false },
+      { "text": "px", "isCorrect": false },
+      { "text": "%", "isCorrect": false },
+      { "text": "ptx", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "How can you select an element with the ID 'main' in CSS?",
+    "answers": [
+      { "text": "#main", "isCorrect": true },
+      { "text": ".main", "isCorrect": false },
+      { "text": "main", "isCorrect": false },
+      { "text": "*main", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What does DOM stand for?",
+    "answers": [
+      { "text": "Document Object Model", "isCorrect": true },
+      { "text": "Display Oriented Mode", "isCorrect": false },
+      { "text": "Digital Output Module", "isCorrect": false },
+      { "text": "Document Outline Marker", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of a `<form>` element?",
+    "answers": [
+      { "text": "To display data tables", "isCorrect": false },
+      { "text": "To create paragraphs", "isCorrect": false },
+      { "text": "To collect user input", "isCorrect": true },
+      { "text": "To format text", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which JavaScript function displays a dialog box?",
+    "answers": [
+      { "text": "prompt()", "isCorrect": true },
+      { "text": "message()", "isCorrect": false },
+      { "text": "dialog()", "isCorrect": false },
+      { "text": "notice()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which symbol is used for comments in CSS?",
+    "answers": [
+      { "text": "/* comment */", "isCorrect": true },
+      { "text": "// comment", "isCorrect": false },
+      { "text": "# comment", "isCorrect": false },
+      { "text": "<!-- comment -->", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which HTML tag is used to add an image?",
+    "answers": [
+      { "text": "<img>", "isCorrect": true },
+      { "text": "<image>", "isCorrect": false },
+      { "text": "<pic>", "isCorrect": false },
+      { "text": "<src>", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which JavaScript array method removes the last item?",
+    "answers": [
+      { "text": "pop()", "isCorrect": true },
+      { "text": "shift()", "isCorrect": false },
+      { "text": "remove()", "isCorrect": false },
+      { "text": "delete()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you link a JavaScript file in HTML?",
+    "answers": [
+      { "text": "<script src='script.js'></script>", "isCorrect": true },
+      { "text": "<js link='script.js'>", "isCorrect": false },
+      { "text": "<script href='script.js'>", "isCorrect": false },
+      { "text": "<link src='script.js'>", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which tag defines a table row in HTML?",
+    "answers": [
+      { "text": "<tr>", "isCorrect": true },
+      { "text": "<td>", "isCorrect": false },
+      { "text": "<th>", "isCorrect": false },
+      { "text": "<table-row>", "isCorrect": false }
+    ]
+  }
+]
