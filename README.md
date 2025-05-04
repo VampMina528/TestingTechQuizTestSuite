@@ -62,12 +62,11 @@ npm run start:dev
 To open the Cypress test suite:
 
 ```bash
-npm run test
+npm run cypress
 ```
 
 Once the Cypress UI launches, you can run:
 
-* `Quiz.cy.jsx` under **Component Testing**
 * `quiz.cy.js` under **End-to-End Testing**
 
 ---
@@ -76,7 +75,7 @@ Once the Cypress UI launches, you can run:
 
 Watch the full walkthrough video demonstrating all tests passing:
 
-🔗 \[Video Link Placeholder – replace this with your final link]
+🔗 \[[https://www.instagram.com/reel/DJN_VzMNSYi/?utm_source=ig_web_copy_link](https://www.instagram.com/reel/DJN_VzMNSYi/?utm_source=ig_web_copy_link)]
 
 ---
 
