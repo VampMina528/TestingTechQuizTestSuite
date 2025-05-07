@@ -8,14 +8,30 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [questionsReady, setQuestionsReady] = useState(false);
 
   const getRandomQuestions = async () => {
     try {
-      const questions = await getQuestions();
-      if (!questions) throw new Error('something went wrong!');
-      setQuestions(questions);
+      const localMock = localStorage.getItem('quizQuestions');
+      const data = localMock
+        ? JSON.parse(localMock)
+        : await getQuestions();
+
+      const mappedQuestions: Question[] = data.map((q: any, index: number) => ({
+        _id: q._id || `${index}`,
+        question: q.question || q.questionText,
+        answers:
+          q.answers ||
+          q.answerOptions.map((opt: any) => ({
+            text: opt.text || opt.answerText,
+            isCorrect: opt.isCorrect,
+          })),
+      }));
+
+      setQuestions(mappedQuestions);
+      setQuestionsReady(true);
     } catch (err) {
-      console.error(err);
+      console.error('Failed to load quiz questions:', err);
     }
   };
 
@@ -30,6 +46,7 @@ const Quiz = () => {
   };
 
   const handleStartQuiz = async () => {
+    setQuestionsReady(false);
     await getRandomQuestions();
     setQuizStarted(true);
     setQuizCompleted(false);
@@ -69,7 +86,7 @@ const Quiz = () => {
     );
   }
 
-  if (questions.length === 0) {
+  if (!questionsReady) {
     return (
       <div className="d-flex justify-content-center align-items-center vh-100">
         <div className="spinner-border text-primary" role="status">

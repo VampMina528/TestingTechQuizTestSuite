@@ -1,3 +1,1 @@
-import { IQuestion, Question } from './Question.js';
-
-export { IQuestion, Question };
+export { Question } from './Question.js';
