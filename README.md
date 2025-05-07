@@ -75,7 +75,7 @@ Once the Cypress UI launches, you can run:
 
 Watch the full walkthrough video demonstrating all tests passing:
 
-🔗 \[[https://www.instagram.com/reel/DJN_VzMNSYi/?utm_source=ig_web_copy_link](https://www.instagram.com/reel/DJN_VzMNSYi/?utm_source=ig_web_copy_link)]
+🔗 \[[https://www.instagram.com/reel/DJXnkjytELN/?utm_source=ig_web_copy_link](https://www.instagram.com/reel/DJXnkjytELN/?utm_source=ig_web_copy_link)]
 
 ---
 
